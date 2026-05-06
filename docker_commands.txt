@@ -33,4 +33,9 @@
 - docker inspect container_id
 - docker stats
 - docker top container_id
-- 
+ 
+=======docker networks=====
+
+- docker network ps
+- docker network create name_of_the_network -d bridge
+ 
