@@ -1,0 +1,36 @@
+======baisc commands====
+- docker --version
+- docker info
+
+=======image commands=====
+- docker pull
+- docker images
+- docker build -t myapp .
+- docker rmi image_id
+- docker rmi -f image_id
+- docker inspect image_id
+- docker history image_name
+
+======container commands=======
+
+- docker run -d image_name
+- docker run -d -p 3000:3000 node-app
+- docker run -d --name backend node-app
+- docker run -e NODE_ENV=production node-app
+- docker run -it container_name bash
+- docker ps
+- docker stop container_id
+- docker start container_id
+- docker restart container_id
+- docker kill container-id
+- docker rm container_id
+- docker rename old_name new_name
+
+========docker log=========
+
+- docker log container_id
+- docker exec -it container_id bash
+- docker inspect container_id
+- docker stats
+- docker top container_id
+- 
